@@ -91,8 +91,8 @@ For additional information and detailed instructions, please visit https://infom
 
 ==Changelog==
 
-=1=
-* Initial release
+= 1 =
+* Initial release *
 
 
 ==Upgrade Notice==
