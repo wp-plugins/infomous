@@ -1,0 +1,78 @@
+#dualcube_menu_ico {
+  background: url("../../images/dclogo.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+#dc_admin_footer {
+  bottom: 45px;
+  width: 100%;
+  text-align: center;
+  position: absolute; 
+}
+
+#dc_admin_footer a {
+  text-decoration: none; 
+}
+
+#dc_admin_footer img {
+  border: none; 
+  margin-right: 5px;
+  vertical-align: bottom;
+}
+
+.required {
+  color: red; 
+}
+
+.img_tip {
+	background: url("../../images/question_mark.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	display: inline-block;
+	height: 12px;
+	vertical-align: -1px;
+	width: 12px;
+	cursor: help;
+	margin-left: 5px;
+}
+
+#cloud_type {
+  margin: 5px 10px;
+}
+
+.use_comments {
+  display: inline-block; 
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+label.use_comments {
+  margin: 10px 0px; 
+}
+
+input.use_comments {
+  margin-left: 20px; 
+}
+
+p.nid, p.width, p.height, p.words, p.frame_title, p.colFrame, p.colFrameTitle {
+  display: inline-block; 
+  margin-left: 20px; 
+  margin-right: 10px;
+}
+
+p.nid strong {
+  font-weight: 500;
+}
+
+#nid, #width, #height, #words {
+  width: 50px; 
+}
+
+#frame_title {
+  width: 250px;
+}
+
+p.dimension_help {
+  margin-left: 20px;
+}
+
+.wp-picker-container {
+  vertical-align: middle; 
+}

@@ -1,0 +1,191 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Demo Plugin\n"
+"POT-Creation-Date: 2014-02-10 12:41+0530\n"
+"PO-Revision-Date: 2014-02-10 12:41+0530\n"
+"Last-Translator: Dualcube <admin@dualcube.com>\n"
+"Language-Team: Dualcube <admin@dualcube.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\infomous\\wp-content\\plugins"
+"\\infomous_cloud\n"
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-admin.php:27
+msgid "Powered by"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-admin.php:27
+msgid "Dualcube"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:35
+msgid "Infomous Clouds"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:36
+msgid "Infomous Cloud"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:38
+msgid "Add Infomous Cloud"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:39
+msgid "Add New Infomous Cloud"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:40
+msgid "Edit"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:41
+msgid "Edit Infomous Cloud"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:42
+msgid "New Infomous Cloud"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:43
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:44
+msgid "View Infomous Cloud"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:45
+msgid "Search Infomous Clouds"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:46
+msgid "No Infomous Clouds found"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:47
+msgid "No Infomous Clouds found in trash"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:48
+msgid "Parent Infomous cloud"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:50
+msgid "This is where you can add new Infomous Clouds for your site."
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:91
+msgid "Cloud Options"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:99
+msgid "Embed Code"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:110
+msgid "Create your Infomous Cloud using:"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:110
+msgid "Content from your blog feed"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:111
+msgid "Include user comments"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:112
+msgid "An existing cloud from infomous.com"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:113
+msgid "Enter the node ID of your cloud: http://infomous.com/node/"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:113
+msgid "NID"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:113
+msgid ""
+"If you have already created a cloud on infomous.com, please enter the node "
+"ID, which is the number that appears after http://infomous.com/node/ when "
+"you look at your cloud. For example, if your cloud is http://infomous.com/"
+"node/1000, enter &quot;1000&quot; in this box."
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:115
+msgid "Customize the look & feel of your Infomous Cloud"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:117
+msgid "Frame title"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:117
+msgid "Frame Title"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:117
+msgid ""
+"Title to be displayed in the top bar of this embed. It will not change the "
+"default title of the cloud at the site or other embeds of the same cloud."
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:119
+msgid "Width"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:120
+msgid "Height"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:121
+msgid "Number of words"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:121
+msgid "No of Words"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:121
+msgid ""
+"The number of words influences the visualization of a cloud. With too many "
+"words, the cloud will look busy and cluttered, and will contain some "
+"unnecessary words. With too few words, the cloud will look boring and empty, "
+"and will exclude some relevant topics. We recommend 40 words per cloud, as "
+"this number provides a nice balance between the two extremes."
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:123
+msgid "Cloud size must be atleast 300x300"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:123
+msgid ""
+"300x300 is the smallest size possible in order to visualize content "
+"effectively. If the cloud is any smaller, interaction becomes nearly "
+"impossible, dramatically reducing the value of the cloud. Please see our "
+"guide to effective Infomous clouds for additional guide."
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:125
+msgid "Frame Color"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:126
+msgid "Frame Title Color"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:156
+msgid "Cloud width must be atleast 300"
+msgstr ""
+
+#: C:\wamp\www\infomous\wp-content\plugins\infomous_cloud/classes/class-dc-infomous-cloud-post-infomous-cloud.php:163
+msgid "Cloud height must be atleast 300"
+msgstr ""
+
+#~ msgid "ID Number"
+#~ msgstr "Identification"
