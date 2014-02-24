@@ -32,45 +32,47 @@ This plugin displays the default feed (and optionally the comments feed) of your
 
 ==Installation==
 
-1. Upload the entire `infomous` folder to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. Look at your admin bar and enjoy using the new links there.
-4. Go and manage your forum.
+1. From your admin dashboard, click *Plugins->Add New*
+2. Enter **"Infomous"** in the search box
+3. You will see Infomous listed in the results. Click the link *"Install Now"* and confirm when requested.
+4. Once the installation is done, click *"Activate Plugin"*
+5. Your admin dashboard should now have a new menu item called **"Infomous Clouds"** (you may have to refresh the page).
+6. Enjoy the new plugin to create new Infomous clouds for your blog!
 
 ==Frequently Asked Questions==
 
 = Why should I put an Infomous cloud on my WordPress site? =
 
-**Infomous clouds are a great way to engage your blog visitors. You can use Infomous to help them navigate the content on your own blog, or you can create an Infomous cloud to showcase related content from other sources, including news, social media and other blogs.**
+Infomous clouds are a great way to engage your blog visitors. You can use Infomous to help them navigate the content on your own blog, or you can create an Infomous cloud to showcase related content from other sources, including news, social media and other blogs.
 
 = Can I put more than one Infomous cloud on my WordPress site? =
 
-**You can put as many Infomous clouds on your site as you want. You can embed Infomous clouds in your posts or in your pages.**
+You can put as many Infomous clouds on your site as you want. You can embed Infomous clouds in your posts or in your pages.
 
 = What is the optimal size of an Infomous cloud? =
 
-**Infomous clouds have to be at least 300 x 300 in order to visualize content effectively. The larger the cloud is the easier it is for your users to explore your content. Clouds of the same width as your posts tend to perform well.**
+Infomous clouds have to be at least 300 x 300 in order to visualize content effectively. The larger the cloud is the easier it is for your users to explore your content. Clouds of the same width as your posts tend to perform well.
 
 = What does "add an existing cloud from Infomous.com" mean? =
 
-**Many users of infomous.com also have WordPress sites. With the Infomous WordPress plugin, now users are able to embed the clouds they created from infomous.com directly into WordPress. Please visit infomous.com to find out how you can create free clouds from many types of online content.**
+Many users of infomous.com also have WordPress sites. With the Infomous WordPress plugin, now users are able to embed the clouds they created from infomous.com directly into WordPress. Please visit infomous.com to find out how you can create free clouds from many types of online content.
 
 = How do I add an existing cloud from Infomous.com? =
 
-**Enter the node ID, which is the number that appears after http://infomous.com/node/ when you look at your cloud.**
+Enter the node ID, which is the number that appears after http://infomous.com/node/ when you look at your cloud.
 
 = I changed the color of the frame, how do I change the rest of the colors? =
 
-**To change the color of the words, you need to sign up for a "premium account" on Infomous.com.**
+To change the color of the words, you need to sign up for a "premium account" on Infomous.com.
 
-= I added the embed code into my post but the cloud doesn’t show up, why is that? =
+= I added the embed code into my post but the cloud doesn't show up, why is that? =
 
-**After you have created your Infomous cloud, you must click "Publish" before you embed the cloud in your post or page.
-For additional information and detailed instructions, please visit https://infomous.uservoice.com/knowledgebase.**
+After you have created your Infomous cloud, you must click "Publish" before you embed the cloud in your post or page.
+For additional information and detailed instructions, please visit https://infomous.uservoice.com/knowledgebase.
 
 = Can I turn off the ads and/or promoted items that appear when I click a word? =
 
-**Infomous is free to use but includes some unobtrusive promotional content to help support our costs. For a small monthly fee based on your site's traffic volume, we offer an ad-free version. For larger sites (100K monthly pageviews), contact us about revenue-sharing opportunities.**
+Infomous is free to use but includes some unobtrusive promotional content to help support our costs. For a small monthly fee based on your site's traffic volume, we offer an ad-free version. For larger sites (100K monthly pageviews), contact us about revenue-sharing opportunities.
 
 
 ==Screenshots===
@@ -104,7 +106,8 @@ Just released into the wild!
 
 
 ==Feedback==
-Please!
-If you don't rate my plugin as 5/5 - please write why - and I will add or change options and fix bugs. It's very unpleasant to see silient low rates. For more information and instructions on this plugin please visit www.dualcube.com.
+Please rate our plugin and provide feedback. If you do not think it should be rated as 5/5, please include your comments so that we can try to improve the plugin or fix any problems. For more information and instructions please use our [contact form](https://get.infomous.com/contact-us/ "contact form").
+
+The Infomous plugin was developed and is maintained by [DualCube](http://dualcube.com/ "Dualcube").
 
 
