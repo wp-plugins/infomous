@@ -21,6 +21,8 @@ class DC_Infomous_Cloud {
 
 	private $file;
 	
+	public $license;
+	
 	public $dc_wp_fields;
 	
 	public $dc_post_Infomous_Cloud;
@@ -30,9 +32,9 @@ class DC_Infomous_Cloud {
 		$this->file = $file;
 		$this->plugin_url = trailingslashit(plugins_url('', $plugin = $file));
 		$this->plugin_path = trailingslashit(dirname($file));
-		$this->token = PLUGIN_TOKEN;
-		$this->text_domain = TEXT_DOMAIN;
-		$this->version = PLUGIN_VERSION;
+		$this->token = DC_INFOMOUS_CLOUD_PLUGIN_TOKEN;
+		$this->text_domain = DC_INFOMOUS_CLOUD_TEXT_DOMAIN;
+		$this->version = DC_INFOMOUS_CLOUD_PLUGIN_VERSION;
 		
 		add_action('init', array(&$this, 'init'));
 	}
@@ -62,6 +64,12 @@ class DC_Infomous_Cloud {
       // init templates
       $this->load_class('template');
       $this->template = new DC_Infomous_Cloud_Template();
+		}
+		
+		// DC License Activation
+		if (is_admin()) {
+		  $this->load_class('license');
+		  $this->license = DC_Infomous_Cloud_LICENSE();
 		}
 
 		// DC Wp Fields
@@ -120,6 +128,37 @@ class DC_Infomous_Cloud {
     $this->dc_post_Infomous_Cloud = new DC_Infomous_Cloud_Post_Infomous_Cloud();
     
     register_activation_hook( __FILE__, 'flush_rewrite_rules' );
+  }
+  
+  /**
+   * Install upon activation.
+   *
+   * @access public
+   * @return void
+   */
+  function activate_dc_infomous_cloud() {
+    global $DC_Infomous_Cloud;
+    
+    // License Activation
+    $DC_Infomous_Cloud->load_class('license');
+    DC_Infomous_Cloud_LICENSE()->activation();
+    
+    update_option( 'dc_infomous_cloud_installed', 1 );
+  }
+  
+  /**
+   * UnInstall upon deactivation.
+   *
+   * @access public
+   * @return void
+   */
+  function deactivate_dc_infomous_cloud() {
+    global $DC_Infomous_Cloud;
+    delete_option( 'dc_infomous_cloud_installed' );
+    
+    // License Deactivation
+    $DC_Infomous_Cloud->load_class('license');
+    DC_Infomous_Cloud_LICENSE()->uninstall();
   }
 	
 	/** Cache Helpers *********************************************************/

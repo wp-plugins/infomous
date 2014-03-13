@@ -34,7 +34,8 @@ class DC_Infomous_Cloud_Library {
 	 */
 	public function load_wp_fields() {
 	  global $DC_Infomous_Cloud;
-	  require_once ($this->php_lib_path . 'class-dc-wp-fields.php');
+	  if ( ! class_exists( 'DC_WP_Fields' ) )
+	    require_once ($this->php_lib_path . 'class-dc-wp-fields.php');
 	  $DC_WP_Fields = new DC_WP_Fields(); 
 	  return $DC_WP_Fields;
 	}
