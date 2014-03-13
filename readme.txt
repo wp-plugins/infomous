@@ -1,11 +1,11 @@
 === Infomous ===
-Contributors: DualCube
+Contributors: Dualcube
 Donate link: http://dualcube.com/
 Tags: Infomous, interactive cloud, feed, social media, news feed, blog feed,
 latest news, news cloud 
 Requires at least: 3.0.1
-Tested up to: 3.8
-Stable tag: 1
+Tested up to: 3.8.1
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,10 +21,11 @@ You can also elevate the voice of your users by including their comments in the 
 
 = Options =
 The following options are customizable:
-    •    the content of the cloud
-    •    number of words shown in the cloud
-    •    tag color of the frame
-    •    the size of the cloud
+
+* the content of the cloud
+* number of words shown in the cloud
+* tag color of the frame
+* the size of the cloud
  
 This plugin displays the default feed (and optionally the comments feed) of your WordPress site.
 
@@ -75,7 +76,7 @@ For additional information and detailed instructions, please visit https://infom
 Infomous is free to use but includes some unobtrusive promotional content to help support our costs. For a small monthly fee based on your site's traffic volume, we offer an ad-free version. For larger sites (100K monthly pageviews), contact us about revenue-sharing opportunities.
 
 
-==Screenshots===
+==Screenshots==
 1. Admin dashboard to access the Infomous.
 
 2. Create an Infomous cloud automatically from your site's RSS feed.
@@ -93,21 +94,24 @@ Infomous is free to use but includes some unobtrusive promotional content to hel
 
 ==Changelog==
 
-= 1 =
-* Initial release *
+= 1.0 =
+* Initial release.
+
+= 1.0.1 =
+* Refactored and fixed code structure.
 
 
 ==Upgrade Notice==
 
-=1.0=
-
+= 1.0 =
 Just released into the wild!
 
+
+= 1.0.1 =
+Refactored and fixed code structure.
 
 
 ==Feedback==
 Please rate our plugin and provide feedback. If you do not think it should be rated as 5/5, please include your comments so that we can try to improve the plugin or fix any problems. For more information and instructions please use our [contact form](https://get.infomous.com/contact-us/ "contact form").
 
 The Infomous plugin was developed and is maintained by [DualCube](http://dualcube.com/ "Dualcube").
-
-
