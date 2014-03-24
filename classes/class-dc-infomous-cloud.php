@@ -21,8 +21,6 @@ class DC_Infomous_Cloud {
 
 	private $file;
 	
-	public $license;
-	
 	public $dc_wp_fields;
 	
 	public $dc_post_Infomous_Cloud;
@@ -66,12 +64,6 @@ class DC_Infomous_Cloud {
       $this->template = new DC_Infomous_Cloud_Template();
 		}
 		
-		// DC License Activation
-		if (is_admin()) {
-		  $this->load_class('license');
-		  $this->license = DC_Infomous_Cloud_LICENSE();
-		}
-
 		// DC Wp Fields
 		$this->dc_wp_fields = $this->library->load_wp_fields();
 		
@@ -139,10 +131,6 @@ class DC_Infomous_Cloud {
   function activate_dc_infomous_cloud() {
     global $DC_Infomous_Cloud;
     
-    // License Activation
-    $DC_Infomous_Cloud->load_class('license');
-    DC_Infomous_Cloud_LICENSE()->activation();
-    
     update_option( 'dc_infomous_cloud_installed', 1 );
   }
   
@@ -155,10 +143,6 @@ class DC_Infomous_Cloud {
   function deactivate_dc_infomous_cloud() {
     global $DC_Infomous_Cloud;
     delete_option( 'dc_infomous_cloud_installed' );
-    
-    // License Deactivation
-    $DC_Infomous_Cloud->load_class('license');
-    DC_Infomous_Cloud_LICENSE()->uninstall();
   }
 	
 	/** Cache Helpers *********************************************************/
