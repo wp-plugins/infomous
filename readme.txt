@@ -5,7 +5,7 @@ Tags: Infomous, interactive cloud, feed, social media, news feed, blog feed,
 latest news, news cloud 
 Requires at least: 3.0.1
 Tested up to: 3.8.1
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -103,6 +103,9 @@ Infomous is free to use but includes some unobtrusive promotional content to hel
 = 1.0.2 =
 Minor bug fix.
 
+= 1.0.3 =
+Minor code tweaks.
+
 
 ==Upgrade Notice==
 
@@ -115,6 +118,9 @@ Refactored and fixed code structure.
 
 = 1.0.2 =
 Minor bug fix.
+
+= 1.0.3 =
+Minor code tweaks.
 
 
 ==Feedback==
