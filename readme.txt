@@ -4,8 +4,8 @@ Donate link: http://dualcube.com/
 Tags: Infomous, interactive cloud, feed, social media, news feed, blog feed,
 latest news, news cloud 
 Requires at least: 3.0.1
-Tested up to: 3.8.1
-Stable tag: 1.0.3
+Tested up to: 3.9.1
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -106,6 +106,9 @@ Minor bug fix.
 = 1.0.3 =
 Minor code tweaks.
 
+= 1.0.4 =
+* Fixed compatiblility issue for wordpress 3.9.
+
 
 ==Upgrade Notice==
 
@@ -121,6 +124,9 @@ Minor bug fix.
 
 = 1.0.3 =
 Minor code tweaks.
+
+= 1.0.4 =
+* Fixed compatiblility issue for wordpress 3.9.
 
 
 ==Feedback==
